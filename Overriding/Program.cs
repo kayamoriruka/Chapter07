@@ -32,15 +32,15 @@ namespace Overriding
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("");
+            Console.WriteLine("Creating ArmorSuite...");
             ArmorSuite armorSuite = new ArmorSuite();
             armorSuite.Initialize();
 
-            Console.WriteLine("");
+            Console.WriteLine("\nCreating IronMan...");
             ArmorSuite ironMan = new IronMan();
             ironMan.Initialize();
 
-            Console.WriteLine("");
+            Console.WriteLine("\nCreating WarMachine...");
             ArmorSuite warMachine = new WarMachine();
             warMachine.Initialize();
         }
